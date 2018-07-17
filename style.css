@@ -77,17 +77,41 @@ ul {
 	line-height: 35px;
 }
 
-#pillars h1 {
+#values h1 {
 	margin-top: 130px;
+	margin-bottom: 50px;
 	text-align: center;
 	font-family: "Doppio One", sans-serif;
 	font-size: 45px;
 }
 
-/*.icons {
-	margin-top: 50px;
-	margin-left: 60px;
-	height: 100px;
+#flex {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+.item-flex {
+	width: 300px;
+	text-align: center;
+}
+
+.item-flex i {
 	font-size: 50px;
-	margin-top: 1px;
-}*/
+	padding-bottom: 15px;
+}
+
+.item-flex h3 {
+	font-size: 30px;
+	font-family: "Doppio One", sans-serif;
+}
+
+.item-flex p {
+	font-size: 20px;
+	font-family: "Doppio One", sans-serif;
+	padding-top: 15px;
+}
+
+#products {
+	margin-top: 100px;
+}
