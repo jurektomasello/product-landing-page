@@ -7,7 +7,6 @@
 body {
 	padding-top: 70px;
 	background-color: #d1cdc6;
-	height: 3000px;
 }
 
 #header {
@@ -48,7 +47,6 @@ ul {
 	padding-left: 50px;
 	font-family: "Doppio One", sans-serif;
 	font-size: 18px;
-	color: white;
 }
 
 #title {
@@ -171,9 +169,53 @@ ul {
 	font-size: 15px;
 }
 
-#newsletter {
-	margin-top: 50px;
+#video {
+	text-align: center;
+	padding: 40px;
+}
+
+#form {
+	margin-top: 30px;
 	text-align: center;
 	font-family: "Doppio One", sans-serif;
 	font-size: 20px;
+}
+
+input {
+	height: 30px;
+	width: 200px;
+	margin-top: 30px;
+	padding-left: 5px;
+	font-size: 14px;
+}
+
+#submit {
+	display: block;
+	margin: 0 auto;
+	margin-top: 30px;
+	width: 80px;
+	height: 30px;
+	background-color: white;
+	font-size: 15px;
+	font-family: "Doppio One", sans-serif;
+	cursor: pointer;
+}
+
+footer {
+	margin-top: 50px;
+	padding-top: 15px;
+	height: 25px;
+	background-color: #696969;
+}
+
+footer ul li {
+	display: inline;
+	padding: 0 15px;
+	font-family: "Doppio One", sans-serif;
+	color: white;
+}
+
+a {
+	text-decoration: none;
+	color: white;
 }
