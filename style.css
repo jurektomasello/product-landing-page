@@ -11,6 +11,7 @@ body {
 
 #header {
 	width: 100%;
+	min-width: 455px;
 	height: 90px;
 	position: fixed;
 	top: 0px;
@@ -37,7 +38,8 @@ ul {
 
 #nav-bar {
 	float: right;
-	width: 12;
+	/*width: 100%;*/
+	position: relative;
 	margin-top: 36px;
 	margin-right: 40px;
 }
@@ -60,6 +62,12 @@ ul {
 	width: 30%;
 	float: right;
 	margin-top: 20px;
+}
+
+@media (max-width: 650px) {
+	#main-image {
+		display: none;
+	}
 }
 
 #main-description {
