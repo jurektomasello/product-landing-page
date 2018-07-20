@@ -31,7 +31,7 @@ body {
 	position: relative;
 	display: inline;
 	line-height: 87px;
-	font-family: Montserrat, sans-serif;
+	font-family: Cabin, sans-serif;
 	font-size: 45px;
 	color: white;
 }
@@ -76,7 +76,7 @@ body {
 	margin-top: 80px;
 	text-align: center;
 	font-family: "Doppio One", sans-serif;
-	font-size: 45px;
+	font-size: 60px;
 }
 
 #main-description {
@@ -88,7 +88,7 @@ body {
 }
 
 #main-description h2 {
-	font-family: "Doppio One", sans-serif;
+	font-family: "Abel", sans-serif;
 	font-size: 30px; 
 	text-align: justify;
 	line-height: 35px;
@@ -123,12 +123,12 @@ body {
 
 .item-flex h3 {
 	font-size: 30px;
-	font-family: "Doppio One", sans-serif;
+	font-family: "Abel", sans-serif;
 }
 
 .item-flex p {
 	font-size: 20px;
-	font-family: "Doppio One", sans-serif;
+	font-family: "Abel", sans-serif;
 	padding-top: 15px;
 }
 
@@ -162,13 +162,14 @@ body {
 }
 
 .item-flex-products h3 {
-	font-family: "Doppio One", sans-serif;
-	font-size: 20px;
+	font-family: "Abel", sans-serif;
+	font-size: 22px;
 	background-color: #C0C0C0;
 }
 
 .item-flex-products p {
-	font-family: "Doppio One", sans-serif;
+	font-family: "Abel", sans-serif;
+	font-size: 17px;
 	line-height: 20px;
 	padding: 15px;
 }
